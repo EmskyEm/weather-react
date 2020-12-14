@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import SpinnerComponent from "react-element-spinner";
 
 export default function Weather(props) {
   function handleResponse(response) {
@@ -12,5 +11,4 @@ ${response.data.main.temp}°C`);
   q=${props.city}&appid=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(handleResponse);
-  return <SpinnerComponent loading={true} position="global" />;
 }
