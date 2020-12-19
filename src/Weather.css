@@ -1,0 +1,135 @@
+.Weather {
+  padding: 110px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 5px solid #fcde85;
+  margin-top: 87px;
+  padding-bottom: 64px;
+  padding-top: 67px;
+  position: relative;
+  z-index: 2;
+  max-height: 600px;
+}
+
+Weather.input-group-text {
+  border-color: transparent;
+  background: transparent;
+  margin-top: 2px;
+  position: relative;
+  border: transparent;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 200;
+  z-index: 2;
+}
+
+Weather.btn-primary {
+  border: 1px solid #fcde85;
+  text-align: center;
+  position: center;
+  margin: auto;
+  color: #545454;
+  background: transparent;
+  border-color: #569ee2;
+  width: 5cm;
+  z-index: 2;
+}
+
+Weather.btn-secondary {
+  border: 1px solid #fcde85;
+  text-align: center;
+  position: center;
+  margin: auto;
+  color: #545454;
+  background: transparent;
+  border-color: #569ee2;
+  width: 5cm;
+  z-index: 2;
+}
+#city-input {
+  border-color: #88c5e8;
+  background: transparent;
+  border: 2px solid #fcde85;
+  margin-top: 4px;
+  position: center;
+  left: 100px;
+  width: 320px;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 100;
+  z-index: 2;
+  position: center;
+}
+
+Weather.corner-sun {
+  position: absolute;
+  right: -95px;
+  bottom: -205px;
+  z-index: 1;
+  width: 999px;
+  transform: rotate(-15deg);
+}
+
+Weather.left-corner-sun {
+  position: absolute;
+}
+
+.forecast {
+  position: relative;
+  color: #545454;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+  z-index: 2;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.text-left {
+  font-size: 15px;
+  z-index: 2;
+  left: 300px;
+  position: relative;
+}
+
+.strong {
+  font-size: 50px;
+  font-weight: 400;
+  left: 230px;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  z-index: 2;
+}
+
+.temperature {
+  position: relative;
+  top: -20px;
+  margin-left: 100px;
+  z-index: 2;
+  text-align: center;
+  left: 230px;
+}
+
+.units {
+  position: relative;
+  font-size: 18px;
+  top: -25px;
+  font-weight: 300;
+
+  margin: 0;
+  z-index: 2;
+  left: 230px;
+}
