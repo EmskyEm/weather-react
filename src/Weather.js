@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
@@ -36,6 +35,7 @@ export default function Weather() {
       <button type="submit" className="btn btn-secondary btn-default">
         Current
       </button>
+      </div> 
       <div className="container mt-5 ">
         <div className="row">
           <div className="col-4">
@@ -47,8 +47,8 @@ export default function Weather() {
                 <strong>{weatherData.date}</strong>
               </li>
             </ul>
-          </div>
-        </div>
+      </div>
+    </div>
         <div className="col-4">
           <div className="weather-icon">
             <img
@@ -61,6 +61,7 @@ export default function Weather() {
             <span className="units">
               <a href="/">°C</a> | <a href="/">°F</a>
             </span>
+          </div>
           </div>
           <div className="col-4">
             <ul className="text-left">

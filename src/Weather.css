@@ -1,5 +1,4 @@
 .Weather {
-  padding: 110px;
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
@@ -13,7 +12,7 @@
   max-height: 600px;
 }
 
-Weather.form-control-shadow-sm {
+.Weather .form-control-shadow-sm {
   border-color: transparent;
   background: transparent;
   margin-top: 2px;
@@ -26,7 +25,7 @@ Weather.form-control-shadow-sm {
   max-width: 50px;
 }
 
-Weather.input-group-text {
+.Weather .input-group-text {
   border-color: transparent;
   background: transparent;
   margin-top: 2px;
@@ -38,7 +37,7 @@ Weather.input-group-text {
   z-index: 2;
 }
 
-Weather.btn-primary {
+.Weather .btn-primary {
   border: 1px solid #fcde85;
   text-align: center;
   position: center;
@@ -46,11 +45,10 @@ Weather.btn-primary {
   color: #545454;
   background: transparent;
   border-color: #569ee2;
-  width: 20cm;
   z-index: 20px;
 }
 
-Weather.btn-secondary {
+.Weather .btn-secondary {
   border: 1px solid #fcde85;
   text-align: center;
   position: center;
@@ -84,7 +82,7 @@ li {
   position: center;
 }
 
-Weather.corner-sun {
+.Weather .corner-sun {
   position: absolute;
   right: -95px;
   bottom: -205px;
@@ -93,7 +91,7 @@ Weather.corner-sun {
   transform: rotate(-15deg);
 }
 
-Weather.left-corner-sun {
+.Weather .left-corner-sun {
   position: absolute;
 }
 
@@ -113,7 +111,6 @@ Weather.left-corner-sun {
 .text-left {
   font-size: 15px;
   z-index: 2;
-  left: 300px;
   position: relative;
 }
 
@@ -144,5 +141,4 @@ Weather.left-corner-sun {
 
   margin: 0;
   z-index: 2;
-  left: 230px;
 }
