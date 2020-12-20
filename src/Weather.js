@@ -28,14 +28,13 @@ export default function Weather() {
             className="form-control shadow-sm"
           />
         </div>
+        <button type="search" className="btn btn-primary btn-default">
+          Search
+        </button>
+        <button type="submit" className="btn btn-secondary btn-default">
+          Current
+        </button>
       </div>
-      <button type="search" className="btn btn-primary btn-default">
-        Search
-      </button>
-      <button type="submit" className="btn btn-secondary btn-default">
-        Current
-      </button>
-      </div> 
       <div className="container mt-5 ">
         <div className="row">
           <div className="col-4">
@@ -47,21 +46,19 @@ export default function Weather() {
                 <strong>{weatherData.date}</strong>
               </li>
             </ul>
-      </div>
-    </div>
-        <div className="col-4">
-          <div className="weather-icon">
-            <img
-              src={weatherData.img}
-              width="150"
-              alt={weatherData.description}
-            />
-
-            <strong> {weatherData.temperature} </strong>
-            <span className="units">
-              <a href="/">°C</a> | <a href="/">°F</a>
-            </span>
           </div>
+          <div className="col-4">
+            <div className="weather-icon">
+              <img
+                src={weatherData.img}
+                width="150"
+                alt={weatherData.description}
+              />
+              ​<strong> {weatherData.temperature} </strong>
+              <span className="units">
+                <a href="/">°C</a> | <a href="/">°F</a>
+              </span>
+            </div>
           </div>
           <div className="col-4">
             <ul className="text-left">

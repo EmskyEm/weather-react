@@ -11,8 +11,7 @@
   z-index: 2;
   max-height: 600px;
 }
-
-.Weather .form-control-shadow-sm {
+​ .Weather .form-control-shadow-sm {
   border-color: transparent;
   background: transparent;
   margin-top: 2px;
@@ -24,8 +23,7 @@
   z-index: 2;
   max-width: 50px;
 }
-
-.Weather .input-group-text {
+​ .Weather .input-group-text {
   border-color: transparent;
   background: transparent;
   margin-top: 2px;
@@ -36,8 +34,7 @@
   font-weight: 200;
   z-index: 2;
 }
-
-.Weather .btn-primary {
+​ .Weather .btn-primary {
   border: 1px solid #fcde85;
   text-align: center;
   position: center;
@@ -47,8 +44,7 @@
   border-color: #569ee2;
   z-index: 20px;
 }
-
-.Weather .btn-secondary {
+​ .Weather .btn-secondary {
   border: 1px solid #fcde85;
   text-align: center;
   position: center;
@@ -71,18 +67,12 @@
   text-align: center;
   margin: auto;
 }
-
-li {
+​ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  font-weight: 100;
-  z-index: 2;
-  position: center;
 }
-
-.Weather .corner-sun {
+​ .Weather .corner-sun {
   position: absolute;
   right: -95px;
   bottom: -205px;
@@ -90,12 +80,10 @@ li {
   width: 999px;
   transform: rotate(-15deg);
 }
-
-.Weather .left-corner-sun {
+​ .Weather .left-corner-sun {
   position: absolute;
 }
-
-.forecast {
+​ .forecast {
   position: relative;
   color: #545454;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -107,14 +95,7 @@ li {
   font-size: 15px;
   font-weight: normal;
 }
-
-.text-left {
-  font-size: 15px;
-  z-index: 2;
-  position: relative;
-}
-
-.strong {
+​ ​ .strong {
   font-size: 50px;
   font-weight: 400;
   left: 230px;
@@ -123,8 +104,7 @@ li {
   margin: 0;
   z-index: 2;
 }
-
-.temperature {
+​ .temperature {
   position: relative;
   top: -20px;
   margin-left: 100px;
@@ -132,8 +112,7 @@ li {
   text-align: center;
   left: 230px;
 }
-
-.units {
+​ .units {
   position: relative;
   font-size: 18px;
   top: -25px;
