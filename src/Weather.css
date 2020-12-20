@@ -22,10 +22,11 @@
   font-weight: 200;
   z-index: 2;
   max-width: 50px;
+  left: 230px;
+  margin: 0;
 }
-​ .Weather .input-group-text {
+​ .input-group-text {
   border-color: transparent;
-  background: transparent;
   margin-top: 2px;
   position: relative;
   border: transparent;
@@ -33,6 +34,7 @@
   font-size: 19px;
   font-weight: 200;
   z-index: 2;
+  margin-left: 150px;
 }
 ​ .Weather .btn-primary {
   border: 1px solid #fcde85;
@@ -61,8 +63,7 @@
   border: 2px solid #fcde85;
   margin-top: 4px;
   position: center;
-  left: 100px;
-  width: 320px;
+  margin-left: 100px;
   z-index: 2;
   text-align: center;
   margin: auto;
@@ -72,13 +73,17 @@
   margin: 0;
   padding: 0;
 }
+
+ul {
+  list-style-type: none;
+}
 ​ .Weather .corner-sun {
   position: absolute;
   right: -95px;
   bottom: -205px;
   z-index: 1;
   width: 999px;
-  transform: rotate(-15deg);
+  transform: rotate(-60deg);
 }
 ​ .Weather .left-corner-sun {
   position: absolute;
@@ -95,16 +100,7 @@
   font-size: 15px;
   font-weight: normal;
 }
-​ ​ .strong {
-  font-size: 50px;
-  font-weight: 400;
-  left: 230px;
-  position: relative;
-  text-align: center;
-  margin: 0;
-  z-index: 2;
-}
-​ .temperature {
+​ ​ ​ .temperature {
   position: relative;
   top: -20px;
   margin-left: 100px;
