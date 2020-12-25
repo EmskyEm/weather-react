@@ -1,4 +1,5 @@
 import React from "react";
+import Forecast from "./Forecast";
 import "./Weather.css";
 
 export default function Weather() {
@@ -8,32 +9,43 @@ export default function Weather() {
     date: "Tuesday 24 November, 17:31",
     description: "Sunny",
     img: "/SUNwithCLOUD.png",
-    backgroundIcon: "/background.SUN.png",
     humidity: 70,
     wind: 10,
     feelsLike: 6,
   };
   return (
     <div className="Weather">
-      <div className="input-group mb-3">
-        <div className="input-group-prepend">
-          <span className="input-group-text">
-            Write any city in the 🌍 here
-          </span>
-          <input
-            type="search"
-            placeholder="...................................................."
-            autoFocus="on"
-            autoComplete="off"
-            className="form-control shadow-sm"
-          />
+      <div className="row">
+        <div className="col">
+          <form>
+            <div className="input-group text-center mb-3">
+              <div className="input-group-prepend">
+                <span className="input-group-text">
+                  Write any city in the 🌎here
+                </span>
+              </div>
+              <input
+                type="search"
+                placeholder="...................................................."
+                autoFocus="on"
+                autoComplete="off"
+                className="form-control shadow-sm"
+              />
+            </div>
+            <button
+              type="submit"
+              className="btn btn-secondary btn-default mr-1"
+            >
+              Search
+            </button>
+            <button
+              type="button"
+              className="btn btn-secondary btn-default ml-1"
+            >
+              Current
+            </button>
+          </form>
         </div>
-        <button type="search" className="btn btn-primary btn-default">
-          Search
-        </button>
-        <button type="submit" className="btn btn-secondary btn-default">
-          Current
-        </button>
       </div>
       <div className="container mt-5 ">
         <div className="row">
@@ -45,20 +57,21 @@ export default function Weather() {
               <li>
                 <strong>{weatherData.date}</strong>
               </li>
+              <li>{weatherData.description}</li>
             </ul>
           </div>
-          <div className="col-4">
+          <div className="col-4 text-center">
             <div className="weather-icon">
               <img
                 src={weatherData.img}
                 width="150"
                 alt={weatherData.description}
               />
-              ​<strong> {weatherData.temperature} </strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
             </div>
+            <strong> {weatherData.temperature} </strong>
+            <span className="units">
+              <span>°C</span> | <span>°F</span>
+            </span>
           </div>
           <div className="col-4">
             <ul className="text-left">
@@ -69,19 +82,9 @@ export default function Weather() {
           </div>
         </div>
       </div>
-      <img
-        src={weatherData.backgroundIcon}
-        width="300"
-        alt=""
-        className="corner-sun"
-      />
-      ​
-      <img
-        src={weatherData.backgroundIcon}
-        width="550"
-        alt=""
-        className="left-corner-sun"
-      />
+      <div className="container forecast mt-5 mb-3">
+        <Forecast />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,21 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  position: relative;
+}
+
+.corner-sun {
+  position: absolute;
+  right: -50%;
+  bottom: -250px;
+  z-index: 1;
+  width: 999px;
+  transform: translateX(-25%);
+}
+.left-corner-sun {
+  position: absolute;
+  position: absolute;
+  top: -90px;
+  transform: translateX(15%) rotate(135deg);
+  left: -25%;
 }
