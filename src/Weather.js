@@ -21,7 +21,7 @@ export default function Weather() {
             <div className="input-group text-center mb-3">
               <div className="input-group-prepend">
                 <span className="input-group-text">
-                  Write any city in the 🌎here
+                  Write any city in the 🌎 here
                 </span>
               </div>
               <input

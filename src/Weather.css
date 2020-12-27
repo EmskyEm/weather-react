@@ -17,12 +17,13 @@
 }
 
 .form-control.shadow-sm {
-  border-color: transparent;
+  border-color: #7d990e;
   background: transparent;
-  margin-top: 2px;
+  margin-top: 5px;
+  border-radius: 0px;
+  border-width: 2px;
   position: relative;
-  border: transparent;
-  text-align: center;
+  text-align: left;
   font-size: 19px;
   font-weight: 200;
   z-index: 2;
@@ -42,21 +43,20 @@
   margin-left: 150px;
 }
 .btn-primary {
-  border: 1px solid #fcde85;
   text-align: center;
   position: center;
   margin: auto;
-  color: #545454;
+  width: 5cm;
+  color: black;
   background: transparent;
   border-color: #569ee2;
-  z-index: 20px;
+  z-index: 2px;
 }
 .btn-secondary {
-  border: 1px solid #fcde85;
   text-align: center;
   position: center;
   margin: auto;
-  color: #545454;
+  color: black;
   background: transparent;
   border-color: #569ee2;
   width: 5cm;
