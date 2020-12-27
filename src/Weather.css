@@ -96,6 +96,7 @@ ul {
 .temperature {
   position: relative;
   top: -20px;
+  font-size: 30px;
   margin-left: 100px;
   z-index: 2;
   text-align: center;
@@ -105,7 +106,7 @@ ul {
   position: relative;
   font-size: 18px;
   font-weight: 300;
-
+  color: rgb(32, 102, 177);
   margin: 0;
   z-index: 2;
 }

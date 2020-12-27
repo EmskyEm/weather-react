@@ -70,7 +70,13 @@ export default function Weather() {
             </div>
             <strong> {weatherData.temperature} </strong>
             <span className="units">
-              <span>°C</span> | <span>°F</span>
+              <span>
+                <strong>°C </strong>
+              </span>{" "}
+              |{" "}
+              <span>
+                <strong> °F </strong>
+              </span>
             </span>
           </div>
           <div className="col-4">
