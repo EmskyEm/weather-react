@@ -19,3 +19,9 @@
   transform: translateX(15%) rotate(135deg);
   left: -25%;
 }
+
+.links {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
