@@ -1,7 +1,12 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
-  position: relative;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
 }
 
 .corner-sun {
@@ -18,10 +23,4 @@
   top: -90px;
   transform: translateX(15%) rotate(135deg);
   left: -25%;
-}
-
-.links {
-  font-family: sans-serif;
-  text-align: center;
-  position: relative;
 }

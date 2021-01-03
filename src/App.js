@@ -3,9 +3,9 @@ import Weather from "./Weather";
 import "./App.css";
 import "./Weather.css";
 
-export default function Links() {
+export default function App() {
   return (
-    <div className="Links">
+    <div className="App">
       <div className="container">
         <Weather />
 
