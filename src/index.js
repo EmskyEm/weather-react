@@ -23,6 +23,26 @@ function App() {
         alt=""
         className="corner-sun"
       />
+      <footer>
+        <div className="Links">
+          This project was coded by{" "}
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/ema-korabska-930883160/"
+            target="_blank"
+          >
+            Ema Korabska
+          </a>{" "}
+          and is {""}
+          <a
+            rel="noreferrer"
+            href="https://github.com/EmskyEm/weather-react"
+            target="_blank"
+          >
+            open-sourced on Github
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
