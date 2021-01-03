@@ -28,7 +28,7 @@ export default function Weather() {
                 type="search"
                 placeholder="...................................................."
                 autoFocus="on"
-                autoComplete="off"
+                autoComplete="on"
                 className="form-control shadow-sm"
               />
             </div>
@@ -68,15 +68,9 @@ export default function Weather() {
                 alt={weatherData.description}
               />
             </div>
-            <strong> {weatherData.temperature} </strong>
+            <div className="temperature">{weatherData.temperature}</div>
             <span className="units">
-              <span>
-                <strong>°C </strong>
-              </span>{" "}
-              |{" "}
-              <span>
-                <strong> °F </strong>
-              </span>
+              <span>°C</span> | <span>°F</span>
             </span>
           </div>
           <div className="col-4">
