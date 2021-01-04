@@ -9,6 +9,7 @@
   position: relative;
   z-index: 2;
   max-height: 600px;
+  font-family: "Oxygen", sans-serif;
 }
 
 .input-group {
@@ -29,6 +30,7 @@
   max-width: 330px;
   width: 100%;
   margin: 0;
+  font-family: "Oxygen", sans-serif;
 }
 .input-group-text {
   background: transparent;
@@ -40,6 +42,7 @@
   font-weight: 200;
   z-index: 2;
   margin-left: 150px;
+  font-family: "Oxygen", sans-serif;
 }
 .btn-primary {
   text-align: center;
@@ -50,6 +53,7 @@
   background: transparent;
   border-color: #569ee2;
   z-index: 2px;
+  font-family: "Oxygen", sans-serif;
 }
 .btn-secondary {
   text-align: center;
@@ -60,6 +64,7 @@
   border-color: #569ee2;
   width: 5cm;
   z-index: 2;
+  font-family: "Oxygen", sans-serif;
 }
 #city-input {
   border-color: #88c5e8;
