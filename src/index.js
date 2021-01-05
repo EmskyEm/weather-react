@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="Barcelona" />
       <img
         src="/background.SUN.png"
         width="550"
