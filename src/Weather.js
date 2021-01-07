@@ -14,7 +14,7 @@ export default function Weather(props) {
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      img: "/SUNwithCLOUD.png",
+      img: `http://openweather.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       humidity: response.data.humidity,
       wind: response.data.wind.speed,
       feelsLike: response.data.feelsLike,
