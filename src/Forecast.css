@@ -1,9 +1,15 @@
 .forecast {
-  position: relative;
+  text-align: center;
+  margin: 20px 0;
   color: #545454;
   font-family: "Oxygen", sans-serif;
   text-align: center;
   z-index: 2;
   font-size: 15px;
   font-weight: normal;
+}
+
+.forecast canvas {
+  display: block;
+  margin: 5px auto;
 }
