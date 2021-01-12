@@ -15,8 +15,6 @@
 }
 
 .col {
-  font-size: 15px;
-}
-.ForecastPreview img {
-  width: 90%;
+  font-size: 30px;
+  width: 20%;
 }
