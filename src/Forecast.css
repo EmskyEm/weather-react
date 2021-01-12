@@ -5,11 +5,16 @@
   font-family: "Oxygen", sans-serif;
   text-align: center;
   z-index: 2;
-  font-size: 15px;
+  font-size: 3px;
   font-weight: normal;
 }
 
 .forecast canvas {
   display: block;
   margin: 5px auto;
+}
+
+.col {
+  font-size: 30px;
+  width: 20%;
 }
